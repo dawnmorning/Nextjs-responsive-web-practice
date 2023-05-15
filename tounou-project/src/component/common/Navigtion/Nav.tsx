@@ -50,7 +50,7 @@ const topnavwrapper = css`
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  background-color: #191720;
+  background-color: #2b2835;
   height: 78px;
   width: 100%;
 `;
