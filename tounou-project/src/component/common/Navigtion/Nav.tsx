@@ -49,20 +49,22 @@ export default function Nav() {
 const topnavwrapper = css`
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #2b2835;
   height: 78px;
   width: 100%;
+  padding: 0 94px;
 `;
 
 const leftsection = css`
-  margin-left: 128px;
+  /* margin-left: 128px; */
 `;
 
 const midsection = css`
   display: flex;
   margin-left: 128px;
-  margin-right: 135px;
+  justify-content: center;
   color: #ffffff;
   div {
     margin-right: 110px;
@@ -76,16 +78,10 @@ const midsection = css`
 `;
 
 const rightsection = css`
-  /* width: 100%; */
   height: 100%;
   align-items: center;
-  margin-left: 135px;
-  margin-right: 95px;
   display: flex;
   div {
     margin-right: 46px;
-    & :last-child {
-      /* margin-right: 95px; */
-    }
   }
 `;

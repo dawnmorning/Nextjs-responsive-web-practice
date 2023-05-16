@@ -17,7 +17,7 @@ export default function FooterProducts() {
   );
 }
 const productswrapper = css`
-  width: 150px;
+  width: 159px;
   height: 239px;
 `;
 

@@ -27,20 +27,19 @@ export default function Footer() {
   );
 }
 const footertopwrapper = css`
-  position: fixed;
-  bottom: 0;
   width: 100%;
   background-color: #2b2835;
   height: 344px;
 `;
 
 const footerlogocss = css`
-  margin-left: 165px;
+  margin-left: 225px;
   margin-top: 53px;
 `;
 
 const footersection = css`
   display: flex;
+  justify-content: space-between;
 `;
 
 const footercontentwrapper = css`
@@ -59,5 +58,5 @@ const footercontentwrapper = css`
 const copywrightwrapper = css`
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: #b8b8b8;
 `;

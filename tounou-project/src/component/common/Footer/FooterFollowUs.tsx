@@ -14,7 +14,7 @@ export default function FooterFollowUs() {
 }
 
 const followuswrapper = css`
-  width: 261px;
+  width: 262px;
   height: 239px;
   margin-right: 190px;
 `;
