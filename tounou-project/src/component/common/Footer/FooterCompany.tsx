@@ -17,7 +17,7 @@ export default function FooterCompany() {
   );
 }
 const companywrapper = css`
-  width: 179px;
+  width: 159px;
   height: 239px;
 `;
 
