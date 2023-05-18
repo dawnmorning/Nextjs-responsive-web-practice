@@ -51,7 +51,7 @@ const topnavwrapper = css`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2b2835;
+  background-color: #979797;
   height: 78px;
   width: 100%;
   padding: 0 94px;
