@@ -25,7 +25,7 @@ export default function SecondArticle() {
             <CustomButton
               text="BUY NOW"
               onClick={onClickButton}
-              width={130}
+              width={"130px"}
               txtColor={"#FFFFFF"}
               bgc={"#000000"}
             />

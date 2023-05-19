@@ -5,17 +5,22 @@ import { ReactElement } from "react";
 interface CustomButtonProps {
   text: string;
   onClick: () => void;
-  width: number;
+  width: number | string;
   txtColor: string;
   bgc: string;
 }
 
-const buttoncss = (width: number, txtColor: string, bgc: string) => css`
-  width: ${width}px;
+const buttoncss = (
+  width: number | string,
+  txtColor: string,
+  bgc: string
+) => css`
+  width: ${width};
   color: ${txtColor};
   background-color: ${bgc};
   text-align: center;
   border-radius: 100px;
+  border: none;
   height: 41px;
 `;
 

@@ -19,7 +19,6 @@ export default function FooterSupport() {
 
 const supportwrapper = css`
   width: 229px;
-  height: 239px;
 `;
 
 const maintext = css`

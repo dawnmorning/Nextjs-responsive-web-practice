@@ -18,7 +18,6 @@ export default function FooterCompany() {
 }
 const companywrapper = css`
   width: 159px;
-  height: 239px;
 `;
 
 const maintext = css`

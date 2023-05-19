@@ -22,7 +22,7 @@ export default function ThirdArticle() {
               bgc={"#000000"}
               txtColor={"#FFFFFF"}
               onClick={onClickButton}
-              width={145}
+              width={"145px"}
             />
           </div>
         </div>
