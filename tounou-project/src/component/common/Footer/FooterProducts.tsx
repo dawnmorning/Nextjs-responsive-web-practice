@@ -18,7 +18,6 @@ export default function FooterProducts() {
 }
 const productswrapper = css`
   width: 159px;
-  height: 239px;
 `;
 
 const maintext = css`

@@ -1,3 +1,4 @@
+import FinalArticle from "@/component/article/FinalArticle";
 import FirstArticle from "@/component/article/FirstArticle";
 import FirstBackGround from "@/component/article/FirstBackGround";
 import SecondArticle from "@/component/article/SecondArticle";
@@ -14,6 +15,7 @@ export default function Home() {
         <FirstArticle />
         <SecondArticle />
         <ThirdArticle />
+        <FinalArticle />
         <Footer />
       </div>
     </>

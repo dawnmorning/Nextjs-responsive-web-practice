@@ -28,7 +28,7 @@ export default function FirstArticle() {
             <CustomButton
               text="Buynow"
               onClick={onClickButton}
-              width={130}
+              width={"130px"}
               txtColor={"#000000"}
               bgc={"#FFC700"}
             />
