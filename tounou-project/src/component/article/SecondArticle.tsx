@@ -51,7 +51,7 @@ export default function SecondArticle() {
 const topwrapper = css`
   display: flex;
   background-color: #ffffff;
-  height: 300px;
+  height: 500px;
   margin-top: 200px;
   padding: 0 93px;
   @media (max-width: 1024px) {
